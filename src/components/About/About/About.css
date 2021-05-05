@@ -1,0 +1,39 @@
+.about-me img {
+    width: 200px;
+}
+
+.title-color {
+    color: #61dafb;
+}
+
+.skills:after {
+    content: "";
+    width: 80px;
+    height: 3px;
+    display: block;
+    margin-top: 7px;
+    background-color: #ffa200;
+}
+
+.technology {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.technology span {
+    background: #172A45;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 3px 10px;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.about-social-icon {
+    font-size: 20px;
+    color: #ffffff;
+}
+.about-social-icon:hover {
+    color: #F73B54;
+}

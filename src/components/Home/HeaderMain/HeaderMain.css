@@ -1,0 +1,140 @@
+.description {
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+
+}
+.headerMainBtn {
+    margin-left: -14px;
+    
+}
+.aboutBtn {
+    background-color: #ff4d41;
+    border: 1px solid #ff4d41 !important;
+    color: #fff;
+    transition: .8s;
+}
+.aboutBtn:hover {
+    background-color: #ff4e4100;
+    border: 1px solid #ff4d41 !important;
+    color: #fff;
+    transition: .8s;
+}
+.social-git {
+    margin-left: -10px;
+}
+/* .social-li {
+    margin: 0px 15px 0px 15px;
+} */
+.social-btn {
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+}
+.social-btn i {
+    font-size: 16px;
+    transition: .8s ease-in-out;
+}
+
+.social-btn:hover i {
+    color: #ff4d41;
+    transition: .8s ease-in-out;
+    border: none;
+}
+
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+    
+}
+.wave {
+    font-size: 30px;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+/* Start 1199px css responsive  */
+@media (max-width: 1199px) {
+    .headerImg {
+
+    }
+}
+
+/* Start 991px css responsive  */
+@media (max-width: 991px) {
+        .headerImg {
+        
+    }
+}
+
+/* Start 767px css responsive  */
+@media (max-width: 767px) {
+    .headerImg {
+        margin-right: 100px;
+        margin-top: -80px;
+    }
+}
+
+/* Start 575px css responsive  */
+@media (max-width: 575px) {
+
+    .headerMain{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .headerImg {
+        margin-right: 70px;
+    }
+}
+
+/* Start 400px css responsive  */
+@media (max-width: 400px) {
+    .headerImg {
+        margin-right: 0px;
+    }
+}

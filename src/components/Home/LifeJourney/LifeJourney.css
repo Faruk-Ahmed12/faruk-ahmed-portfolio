@@ -1,0 +1,116 @@
+#count-area {
+    background-color: #172A45;
+}
+
+.number-wrap i {
+    font-size: 50px;
+    color: #ffffff;
+    position: relative;
+    z-index: 100;
+    padding-right: 15px;
+}
+
+.number-wrap>span {
+    font-size: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+.count-wrap {
+    position: relative;
+}
+
+.count-wrap:before {
+    position: absolute;
+    content: "";
+    width: 96%;
+    height: 111%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #12183300;
+    opacity: 0.8;
+}
+
+.count-wrap>span {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 17px;
+    color: #ffffff;
+    position: relative;
+    z-index: 100;
+}
+
+.card-hover {
+    border: 8px solid #f7f8ff;
+}
+
+.card-hover:hover {
+    border-color: #ffffff
+}
+
+.gray-bg {
+    background: #F6F5FF;
+}
+
+.sec-bg {
+    background: #3F3F3F;
+}
+
+.pl-70 {
+    padding-left: 70px !important;
+}
+
+#count-area {
+    padding-top: 80px !important;
+    padding-bottom: 100px !important;
+}
+
+.pb-70 {
+    padding-bottom: 100px;
+}
+
+.pt-70 {
+    padding-top: 100px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+.counter {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+}
+
+/* Start 991px css responsive  */
+@media (max-width: 991px) {
+    .count-wrap {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+.about-picture {
+    border: 9px solid #132338;
+    width: 300px;
+    height: 330px;
+    border-radius: 5px;
+}
+.title {
+    font-weight: 700;
+}
+.about-dec {
+    font-size: 13px;
+    font-weight: 500;
+}
+.line {
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+}
+.date-phone {
+    display: flex;
+}
+.email-loca {
+    display: flex;
+}
+.web-freelance {
+    display: flex;
+}
+
+/* Start 1199px css responsive  */
+@media (max-width: 1199px) {
+    .headerImg {}
+}
+
+/* Start 991px css responsive  */
+@media (max-width: 991px) {
+    .headerImg {}
+}
+
+/* Start 767px css responsive  */
+@media (max-width: 767px) {
+    .headerImg {
+        padding-left: 2;
+    }
+}
+
+/* Start 575px css responsive  */
+@media (max-width: 575px) {
+        .phoneNo {
+            padding-left: 310px;
+        }
+}
+
+/* Start 400px css responsive  */
+@media (max-width: 400px) {
+    .headerImg {}
+}
